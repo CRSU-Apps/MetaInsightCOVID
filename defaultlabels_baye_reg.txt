@@ -1,0 +1,8 @@
+Number	Label
+1	Placebo
+2	CZP
+3	Adalimumab
+4	Etanercept
+5	Infliximab
+6	Rituximab
+7	Tocilizumab

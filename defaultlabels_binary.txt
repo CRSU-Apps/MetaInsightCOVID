@@ -1,0 +1,5 @@
+Number	Label
+1	No_contact
+2	Self_help
+3	INdividual counselling
+4	Group counselling
