@@ -325,8 +325,19 @@ shinyUI(navbarPage(id="meta",
                    this also allows the checking of modelling assumptions via cross validation and the use of model fit statistics to choose between competing statistical models. The app also
                    allows the user to download the R code used 'under the hood' that carried out the analysis to ensure reproducibility of research.")
                  ,
-                 br()
-                 ,
+                 br(),
+                 h4("Cochrane Training Webinar",style = "cursive;
+                      font-weight: 500; line-height: 1.1;
+                      color: #FFFFFF;background-color: #2196c4"),
+                 br(),
+                 p("In June 2022 Clareece Nevill, one of our contributors, was part of a Cochrane Training webinar entitled 'Rapid evidence synthesis for COVID-19 research', which aimed to discuss 
+                 experiences with rapid evidence synthesis to address COVID-19 related research and consisted of three presentations. A link to the entire webinar can be found ",
+                   tags$a(href="https://training.cochrane.org/resource/rapid-evidence-synthesis-covid-19-research", "here.")),
+                 p("Clareece Nevill presented how the University of Leicester’s Complex Reviews Support Unit (CRSU) conducted a feasibility study to create an interactive (living) NMA platform
+                   – a tailored version of their current NMA web-app MetaInsight. MetaInsight COVID-19 was formed allowing stakeholders and other researchers to conduct an NMA on the current 
+                   COVID-19 data, filter included studies, and add further studies to the database. Her presentation, which summarises much of the above, can be viewed in the video below:"),
+                 HTML('<iframe width="700" height="395" src="https://www.youtube.com/embed/aUrazFhDK4M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'),
+                 br(),
                  h4("About us",style = "cursive;
                       font-weight: 500; line-height: 1.1;
                       color: #FFFFFF;background-color: #2196c4"),
